@@ -80,3 +80,56 @@ nav li a{
         flex-direction: column;
     }
 }
+
+/* main styles  */
+main{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+/* .teams-img-container-one{
+    display: flex;
+    gap: 5px;
+}
+.teams-img-container-two{
+    display: flex;
+    gap: 5px;
+}
+.teams-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 3rem;
+}
+.teams-title .quick-list{
+    font-weight: 500;
+}
+.teams-title .of-our{
+    font-weight: 700;
+    color: #131313;
+
+}
+.teams-title .text-features{
+    font-weight: 700;
+    color: #FF900E;
+}
+.teams-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
